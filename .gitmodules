@@ -1,0 +1,3 @@
+[submodule "pyEEG"]
+	path = pyEEG
+	url = https://github.com/Hugo-W/pyEEG
