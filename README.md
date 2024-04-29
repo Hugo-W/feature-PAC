@@ -9,11 +9,11 @@ This repository contains the necessary code and a minimal working example of pre
 ## Content
 
 - `data`
-  - preprocessed MEG file: sample files are provided in as a figshare dataset (see `data/meg/README.md` for more information)
+  - preprocessed MEG file: sample files are provided in as a figshare dataset (see [`data/meg/README.md`](https://github.com/Hugo-W/feature-PAC/blob/main/data/meg/README.md) for more information)
   - Stimulus:
     - Audio files: `data/stim/` contains the audio files used in the experiment
     - Annotations: All annotations are stored in the `data/stim/annotations` folder
-- `audiobook`: a custom made python package containing some utility functions specific to our "audiobook MEG" dataset
+- `audiobook`: a custom made python package containing some utility functions specific to our "audiobook MEG" dataset (see [the dataset section](#raw-data) for more information)
 - `pyeeg`: a custom made python package containing some utility functions for computing TRFs (listed as submodule here)
 - `notebooks`: example Jupyter Notebook reproducing some of the main results and figures of the paper
 
