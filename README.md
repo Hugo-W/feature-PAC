@@ -8,6 +8,15 @@ This repository contains the necessary code and a minimal working example of pre
 
 ## Content
 
+### Outline
+
+- [Content](#content)
+- [Setting up](#installation-and-usage)
+- [Dependencies](#requirements)
+- [Data](#dataset)
+- [Reference](#citation-📚)
+
+Folders content:
 - `data`
   - preprocessed MEG file: sample files are provided in as a figshare dataset (see [`data/meg/README.md`](https://github.com/Hugo-W/feature-PAC/blob/main/data/meg/README.md) for more information)
   - Stimulus:
@@ -21,7 +30,7 @@ This repository contains the necessary code and a minimal working example of pre
 
 ### Install dependencies
 
-The overall installation process is fast, given that the main dependencies are already pre-installed in the provided conda environment. Installing from scratch in a new conda environment should take onyl a few minutes.
+The overall installation process is simple and fast, given that the main dependencies are already pre-installed in the provided conda environment. Installing from scratch in a new conda environment should take only a few minutes. It is mainly about setting up the right path for some of the utility functions.
 
 Firstly, clone the repository and navigate to the root folder of the repository:
 
