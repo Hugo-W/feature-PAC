@@ -79,7 +79,7 @@ sys.path.append('path/to/feature-PAC/audiobook')
 
 Example code to reproduce the results of the paper is provided in the `notebooks` folder. You can run the notebooks directly from the command line or from a Jupyter notebook server (e.g., Jupyter Lab `jupyter lab ./` from the root directory, then navigate to the `notebook` folder within Jupyter).
 
-Additionally, a Code Ocean capsule is available to run the simulation code presented in the main article directly from a cloud-based environment. You can access the capsule [here (**TODO**)](https://doi.org/10.24433/CO.2023.10.06.561087/v1).
+Additionally, a Code Ocean capsule is available to run the **simulation code** (for now) presented in the main article directly from a cloud-based environment. You can access the capsule [here](https://doi.org/10.24433/CO.9714821.v1).
 
 ## Additional information
 
