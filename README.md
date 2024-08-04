@@ -95,7 +95,7 @@ The code was tested with Python 3.12.2 and 3.9.13 on CentoOS 7 (kernel Linux-5.4
 - joblib            1.4.0
 - seaborn           0.13.2
 - statsmodels       0.14.1
-
+- h5py              >=3.6.0
 
 ### Dataset
 
