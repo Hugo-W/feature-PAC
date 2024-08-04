@@ -12,7 +12,7 @@ using an LSTM or Transformer model on the text.
 """
 import string
 import os, sys
-import textgrid as tg
+# import textgrid as tg  # not needed anymore
 import pandas as pd
 import numpy as np
 import argparse
@@ -165,9 +165,7 @@ def get_wordlevel_df(storyname, use=(), annot_type='GPT2',
         wordlvl = wordlvl.rename(columns={'text': 'token'})
     if 'word' in wordlvl.columns: # For wf?
         wordlvl = wordlvl.rename(columns={'word': 'token'})
-        # Cleaning word freq file has not been done from timed aligned list #TODO
-        #wordlvl = wordlvl[~wordlvl.token.str.contains('\W')].reset_index() # former line of code
-        wordlvl = wordlvl[wordlvl.token.str.contains('\w')].reset_index() # new line of code: does it break the code for WF??!
+        wordlvl = wordlvl[wordlvl.token.str.contains('\w')].reset_index() 
     if 'type' in wordlvl.columns: # fix to swap head and type for dependency parse (stanza is ok, but the other seems swapped)
         if wordlvl.type.dtype == int:
             head_pos = wordlvl.type
