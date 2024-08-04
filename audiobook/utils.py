@@ -7,11 +7,21 @@ Created on Fri Oct 23 13:19:47 2020
 """
 import os
 from typing import List, Union, Tuple
-import h5py
+try:
+    import h5py
+    h5py_available = True
+except ImportError:
+    print("h5py not installed, some functions will not work.")
+    h5py_available = False
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import textgrid as tg
+try:
+    tg_available = True
+    import textgrid as tg
+except ImportError:
+    tg_available = False
+    print("textgrid not installed, some functions will not work.")
 from tqdm import tqdm
 
 from scipy.signal import correlate
@@ -144,6 +154,7 @@ def get_acoustic_envelope(story, srate=120):
     return  y
 
 def get_boundaries(story, onset=True, phonemes=False):
+    assert tg_available, "textgrid not installed, please install it to use this function."
     tgdata = tg.TextGrid.fromFile(os.path.join(STIM_PATH, 'Alignments', story + '.TextGrid'))
     intervals = tgdata.getFirst('MAU' if phonemes else 'ORT-MAU')
     wordlist = []
@@ -393,6 +404,7 @@ def write_hdf_raws(meg_data, fpath='/project/3027007.01/analysis/Hugo/Data/raws.
     overwrite: bool
         If True, will overwrite the file if it already exists.
     """
+    assert h5py_available, "h5py not installed, please install it to use this function."
     with h5py.File(fpath, mode='a') as f:
         if str(srate) not in f.keys():
             gp = f.create_group(str(srate))
@@ -427,6 +439,8 @@ def write_hdf_raws(meg_data, fpath='/project/3027007.01/analysis/Hugo/Data/raws.
                     
 def read_hdf_raws(subject, story, srate=50, fband='delta',
                   fpath='/project/3027007.01/analysis/Hugo/Data/raws.h5'):
+    
+    assert h5py_available, "h5py not installed, please install it to use this function."
     with h5py.File(fpath, mode='r') as f:
         return f[str(srate)][fband][subject][story][()]
     

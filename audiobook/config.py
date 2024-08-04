@@ -9,8 +9,8 @@ import os
 import pandas as pd
 
 
-DATA_PATH = '/project/3027007.01/'
-STIM_PATH = '/project/3027007.01/Stimuli/'
+DATA_PATH = './data/meg/'  #  /project/3027007.01/
+STIM_PATH = './data/stim/'  #  /project/3027007.01/Stimuli/
 CH_TYPES = {
             # EOG
             'EEG057':'eog', 
