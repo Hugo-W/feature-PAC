@@ -4,8 +4,8 @@
 [![DOI](https://zenodo.org/badge/708032317.svg)](https://zenodo.org/doi/10.5281/zenodo.12667683)
 
 This repository contains the necessary code and a minimal working example of preprocessed data to reproduce the results of:
-> "The Structure and Statistics of Language jointly shape Cross-frequency Dynamics during Spoken Language Comprehension", H. Weissbart & AE. Martin, 2023 ([bioRiv](https://www.biorxiv.org/content/10.1101/2023.10.06.561087v1.full)).
-> [![DOI:10.1101/2023.10.06.561087](https://img.shields.io/badge/DOI-10.1101/2023.10.06.561087-B31B1B.svg)](https://doi.org/10.1101/2023.10.06.561087)
+> " The structure and statistics of language jointly shape cross-frequency neural dynamics during spoken language comprehension", H. Weissbart & AE. Martin, 2024 ([Nature Communications](https://www.biorxiv.org/content/10.1101/2023.10.06.561087v1.full)).
+> [![DOI:10.1038/s41467-024-53128-1](https://img.shields.io/badge/DOI-10.1038/s41467-024-53128-1.svg)](https://doi.org/10.1038/s41467-024-53128-1)
 
 ## Content
 
@@ -114,9 +114,9 @@ The raw files of the full dataset used in this study are published and available
 
 Paper:
 
-> The Structure and Statistics of Language jointly shape Cross-frequency Dynamics during Spoken Language Comprehension;
+> The Structure and Statistics of Language jointly shape Cross-frequency Neural Dynamics during Spoken Language Comprehension;
 > Hugo Weissbart, Andrea E. Martin;
-> bioRxiv 2023.10.06.561087; doi: [https://doi.org/10.1101/2023.10.06.561087 ](https://doi.org/10.1101/2023.10.06.561087)
+> Nature Comms. (2024); doi: [https://doi.org/10.1038/s41467-024-53128-1](https://doi.org/10.1038/s41467-024-53128-1)
 
 Code:
 
