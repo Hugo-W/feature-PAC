@@ -127,7 +127,7 @@ def get_audiopath(story):
     fname = 'story%s_part%s_normalized.wav'%(sid[0], sid[1])
     return os.path.join(STIM_PATH, 'materials', fname)
 
-def get_acoustic_envelope(story, srate=120):
+def get_acoustic_envelope(story, map_names=True, srate=120):
     """
     Get the acoustic envelope from a given story. This loads the wav-file and 
     compute the envelope from the raw audio. The envelope is computed using 
@@ -149,7 +149,7 @@ def get_acoustic_envelope(story, srate=120):
         Acoustic envelope.
 
     """
-    fs, y = wavread(get_audiopath(story))
+    fs, y = wavread(get_audiopath(story) if map_names else story)
     y = signal_envelope(y, fs, resample=srate, verbose=0)
     return  y
 
