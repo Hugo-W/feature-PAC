@@ -1,22 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the corrsponding article."
+message: "If you use this code, please cite it as below."
 authors:
 - family-names: "Weissbart"
   given-names: "Hugo"
   orcid: "https://orcid.org/0000-0003-2820-3865"
-title: "Code and example for TRF-PAC"
+title: "The structure and statistics of language jointly shape cross-frequency neural dynamics during spoken language"
 version: 0.1.0
 url: "https://github.com/Hugo-W/feature-PAC/"
-preferred-citation:
-  type: article
-  authors:
-  - family-names: "Weissbart"
-    given-names: "Hugo"
-    orcid: "https://orcid.org/0000-0003-2820-3865"
-  - family-names: "Martin"
-    given-names: "Andrea E."
-  doi: "10.1101/2023.10.06.561087"
-  journal: "biorXiv"
-  month: 10
-  title: "The Structure and Statistics of Language jointly shape Cross-frequency Dynamics during Spoken Language Comprehension"
-  year: 2023
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.12667684
+date-released: 2024-07-05
