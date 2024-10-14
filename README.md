@@ -4,8 +4,8 @@
 [![DOI](https://zenodo.org/badge/708032317.svg)](https://zenodo.org/doi/10.5281/zenodo.12667683)
 
 This repository contains the necessary code and a minimal working example of preprocessed data to reproduce the results of:
-> " The structure and statistics of language jointly shape cross-frequency neural dynamics during spoken language comprehension", H. Weissbart & AE. Martin, 2024 ([Nature Communications](https://www.biorxiv.org/content/10.1101/2023.10.06.561087v1.full)).
-> [![DOI:10.1038/s41467-024-53128-1](https://img.shields.io/badge/DOI-10.1038/s41467-024-53128-1.svg)](https://doi.org/10.1038/s41467-024-53128-1)
+> " The structure and statistics of language jointly shape cross-frequency neural dynamics during spoken language comprehension", H. Weissbart & AE. Martin, 2024 ([Nature Communications]([https://www.biorxiv.org/content/10.1101/2023.10.06.561087v1.full](https://www.nature.com/articles/s41467-024-53128-1))).
+> [![DOI](https://img.shields.io/badge/DOI-10.1038/s41467--024--53128--1-blue.svg)](https://doi.org/10.1038/s41467-024-53128-1)
 
 ## Content
 
@@ -15,7 +15,7 @@ This repository contains the necessary code and a minimal working example of pre
 - [Setting up](#installation-and-usage)
 - [Dependencies](#requirements)
 - [Data](#dataset)
-- [Reference](#citation-📚)
+- [Reference](#citation-)
 
 Folders content:
 - `data`
@@ -118,8 +118,7 @@ Paper:
 
 > The Structure and Statistics of Language jointly shape Cross-frequency Neural Dynamics during Spoken Language Comprehension;
 > Hugo Weissbart, Andrea E. Martin;
-> Nature Comms. (2024); doi: [https://doi.org/10.1038/s41467-024-53128-1](https://doi.org/10.1038/s41467-024-53128-1)
+> Nature Comms. (2024); [![DOI](https://img.shields.io/badge/DOI-10.1038/s41467--024--53128--1-blue.svg)](https://doi.org/10.1038/s41467-024-53128-1)
 
 Code:
-
-> Weissbart, H. (2024). Code and example for TRF-PAC (v0.1.0). Zenodo. [https://doi.org/10.5281/zenodo.12667684](https://doi.org/10.5281/zenodo.12667684)
+> Weissbart, H. (2024). Code and example for TRF-PAC (v0.1.0). Zenodo. [![DOI](https://zenodo.org/badge/708032317.svg)](https://zenodo.org/doi/10.5281/zenodo.12667683)
